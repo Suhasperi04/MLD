@@ -47,8 +47,7 @@ typedef struct library_ {
 void
 init_register_application_structures_with_mld(object_db_t *object_db){
     
-    /* In this function you should write code to register all application
-     * related data structures above with mld library*/
+   
     static field_info_t student_t_fields[] = {
         FIELD_INFO(student_t, stud_name, CHAR, 0),
         FIELD_INFO(student_t, book_lst, OBJ_PTR,  ll_t),
